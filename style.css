@@ -82,15 +82,16 @@ header {
 	font-size:1em;
 }
  
-video {
+/*video {
 	width:100%;
 	height:56.25%;
-}
-.bkvid {
+}*/
+
+/*.bkvid {
 	width:100%;
 	height:100%;
 }
-
+*/
 footer {
 	width:100%;
 	height:20px;
