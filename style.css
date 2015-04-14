@@ -142,6 +142,8 @@ footer p {
 	font-size:1.2em;
 }
 	
+.vjs-default-skin .vjs-big-play-button {left:25%;top:25%;width:50%;height:50%;}
+
 }
 
 @media screen and (min-width:600px) and (max-width:799px){
