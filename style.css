@@ -66,6 +66,7 @@ header {
 }
 
 .instructions {
+	position:relative;
 	margin:30px;
 }
 
@@ -76,10 +77,11 @@ header {
 .instructions p {
 	font-size:1em;
 }
- video {
-	 display:inline-block;
- }
  
+video {
+	width:100%;
+}
+
 footer {
 	width:100%;
 	height:20px;
@@ -92,9 +94,7 @@ footer p {
 	font-size:.8em;
 	text-align:center;
 	margin:10px;
-	
 }
-
 
 @media screen and (min-width:430px) and (max-width:599px){
 .title {
@@ -170,8 +170,6 @@ footer p {
 	font-size:1.4em;
 }
 }
-
-
 
 @media screen and (min-width:1024px) and (max-width:1199px){
 .title {
