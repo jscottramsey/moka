@@ -106,7 +106,14 @@ footer p {
 	margin:10px;
 }
 
-.vjs-default-skin .vjs-big-play-button {left:25%;top:25%;width:50%;height:50%;}
+.vjs-default-skin.vjs-paused .vjs-big-play-button 
+{
+display: none;
+}
+.vjs-default-skin.vjs-paused .vjs-control-bar
+{
+display: block;
+}
 
 @media screen and (min-width:430px) and (max-width:599px){
 .title {
