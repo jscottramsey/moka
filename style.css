@@ -6,14 +6,6 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
 	color:#444;
 }
-@media only screen and (max-width:599px) {
-    .vjs-default-skin .vjs-big-play-button {left:25%;top:25%;width:50%;height:50%;}
-}
-@media only screen and (min-width:600px) and (max-width:768px) {
-    .vjs-default-skin .vjs-big-play-button {left:25%;top:25%;width:50%;height:50%;font-size:5em;}
-}
-
-
 
 div {
 	position:relative;
@@ -114,6 +106,7 @@ footer p {
 	margin:10px;
 }
 
+.vjs-default-skin .vjs-big-play-button {left:25%;top:25%;width:50%;height:50%;}
 
 @media screen and (min-width:430px) and (max-width:599px){
 .title {
@@ -165,6 +158,8 @@ footer p {
     -moz-column-gap: 25px; 
     column-gap: 25px;
 }
+
+.vjs-default-skin .vjs-big-play-button {left:25%;top:25%;width:50%;height:50%;font-size:5em;}
 }
 
 @media screen and (min-width:800px) and (max-width:1023px){
@@ -281,10 +276,4 @@ header {
 }
 }
 
-@media only screen and (max-width:599px) {
-    .vjs-default-skin .vjs-big-play-button {left:25%;top:25%;width:50%;height:50%;}
-}
-@media only screen and (min-width:600px) and (max-width:768px) {
-    .vjs-default-skin .vjs-big-play-button {left:25%;top:25%;width:50%;height:50%;font-size:5em;}
-}
 
