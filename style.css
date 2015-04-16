@@ -84,14 +84,28 @@ header {
  
 video {
 	width:100%;
-	/*height:56.25%;*/
 }
 
-/*.bkvid {
+#mokavid {
 	width:100%;
-	height:100%;
+	height:auto;
 }
-*/
+.bkvid { 
+position: relative; 
+padding-bottom: 56.25%; 
+height: 0; 
+overflow: hidden; 
+max-width: 100%; 
+} 
+
+.bkvid iframe, .bkvid object, .bkvid embed { 
+position: absolute; 
+top: 0; 
+left: 0; 
+width: 100%; 
+height: 100%; }
+
+
 footer {
 	width:100%;
 	height:20px;
